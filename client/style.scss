@@ -1,0 +1,52 @@
+.image-stitch {
+
+	&__button {
+		// Overrides material-ui button styles
+		display: block !important;
+		margin: 0 auto !important;
+	}
+
+	&__dropzone {
+		display: flex;
+  		align-items: center;
+		border: 1px dashed #000;
+		font-family: Roboto;
+		height: 33vh;
+  		justify-content: center;
+		margin: 0 auto;
+		width: 33vw;
+	}
+
+	&__dropzone--active {
+		background-color: #ccc;
+	}
+
+	&__selected {
+		display: flex;
+		justify-content: center;
+		margin-top: 16px;
+	}
+
+	&__upload {
+		margin: 0 auto;
+		width: 33vw;
+
+		button {
+			width: 100%;
+		}
+	}
+
+	&__selected-image {
+		height: 200px;
+		margin: 8px;
+		width: 200px;
+	}
+
+	&__result {
+		display: block;
+		cursor: pointer;
+		margin: 32px auto;
+		max-width: 75%;
+	}
+	
+}
